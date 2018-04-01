@@ -8,7 +8,7 @@ class Application
     else
       resp.write "Good Afternoon!"
     end
-    resp.write "#{Time.new.hour}"
+
     resp.finish
   end
 end
