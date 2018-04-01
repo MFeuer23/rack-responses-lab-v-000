@@ -8,6 +8,6 @@ class application
     else
       resp.write "Good Afternoon!"
     end
-    resp.rinish
+    resp.finish
   end
 end
